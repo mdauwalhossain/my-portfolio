@@ -42,9 +42,9 @@
           <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/file/d/1XN14F_g6oV7GQuHGdNC5qxyKnaOxYFyq/view?usp=sharing">
             <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
           </a>
-          <a aria-label="Send Email" href="#contact-form" target="_blank"
+          <!-- <a aria-label="Send Email" href="#contact-form" target="_blank"
             ><i class="icon fa fa-envelope"></i
-          ></a>
+          ></a> -->
         </div>
         <div class="header-links">
           <a class="link" href="#about" data-scroll>About Me</a>
@@ -59,7 +59,7 @@
     <section id="about">
       <!-- User Introduction-->
       <div class="user-details">
-        <h1>My Story</h1>
+        <h1 style="font-size:30px;">My Story</h1>
         <picture>
           <source
             type="image/webp"
@@ -75,10 +75,14 @@
             style="border-radius: 50%"
           />
         </picture>
-        <p>
-          I am Auwal from Bangladesh. I complete B.sc In EEE from Presidency University. I am interested in exploring the fields of Software
-          Engineering and I am open to opportunities for the same.
-        </p>
+        <h4 style="">
+          I am Auwal from Bangladesh. 
+          I complete B.sc In EEE from <br>
+          Presidency University. I am 
+          interested in exploring the fields<br>
+          of Software Engineering 
+          and I am open to opportunities for the same.
+        </h4>
       </div>
 
       <!-- User Specifics -->
@@ -123,8 +127,12 @@
 
     <!-- Projects Section -->
     <section id="projects">
+      <div projec-style>
+        
+      </div>
+
       <div class="user-details">
-        <h1>Featured Projects</h1>
+        <h1 style="color:rgb(226, 56, 34);font-size:30px;">Some Projects</h1>
       </div>
 
       <!-- User Project #1: Personal Résumé Website -->
@@ -266,14 +274,17 @@
     <section id="contact">
       
       <div class="contact-form">
-        <h3>Contact With Me</h3>
+        
         <form action="https://formcarry.com/s/OdWiJ6Ht7HC" method="POST" accept-charset="UTF-8" >
-          <input type="email" placeholder="Your Email" name="email">
+          <div class="form-input">
+            <h3>Contact With Me</h3>
+            <input type="email" placeholder="Your Email" name="email">
           <input type="text" placeholder="First Name" name="firstName">
           <input type="text" placeholder="Last Name" name="lastName">
           <input type="text" placeholder="Your Message" name="anotherInput">
           <input type="hidden" name="_gotcha">
-          <input type="submit" value="Submit">                              
+          <input type="submit" value="Submit"> 
+          </div>                             
           </form>
       </div>
     </section>
@@ -283,6 +294,24 @@
     <!-- contact me end -->
 
     <footer class="footer">
+
+      <div class="header-icons">
+        <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/md-auwal-hossain-b29024116/">
+          <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My Github Profile" target="_blank" href="https://github.com/mdauwalhossain">
+          <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+        </a>
+        <a aria-label="My Résumé" target="_blank" href="https://www.google.com/">
+          <i class="icon fa fa fa-google" aria-hidden="true"></i>
+        </a>
+        <a aria-label="Send Email" target="_blank" href="https://www.facebook.com/"
+          ><i class="icon fa fa-facebook"></i
+        ></a>
+        <a aria-label="Send Email" target="_blank" href="https://www.instagram.com/"
+          ><i class="icon fa fa-instagram"></i
+        ></a>
+      </div>
       <p> Md. Auwal Hossain &copy; 2021</p>
     </footer>
 
