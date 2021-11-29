@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik);
 
 #about{
-    background-image: linear-gradient(to right top, #e9c8aa, #f2beae, #f3b5ba, #eab0cb, #d5afdc);
+    background-image: linear-gradient(to right top, #60584d, #6e7364, #798f85, #8aaaad, #a9c2d4);
     top: 50%;
   left: 50%;
   margin-top: 0px;
@@ -22,6 +22,9 @@
     width: 300px;
     text-align: center;
     padding-left: 400px;
+    padding-right: 300px;
+    background-color: gray;
+    border-radius: 8px;
 }
 input[type=text] {
     width: 100%;
@@ -5043,7 +5046,7 @@ a img {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    background-image: linear-gradient(to left top, #c9d4e5, #aed6ef, #88daef, #61dde1, #4fdec5);
+    background-image: linear-gradient(to right top, #8e7e66, #848f72, #759e8d, #70a9af, #86b0cd);
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
